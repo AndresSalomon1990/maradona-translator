@@ -1,0 +1,26 @@
+main {
+    section {
+
+        display: flex;
+        justify-content: space-evenly;
+        padding: 24px;
+
+        .col {
+            min-width: 200px;
+            width: 400px;
+
+            textarea {
+                resize: none;
+                height: 150px;
+            }
+
+            button {
+                margin-top: 5px;
+            }
+
+            p {
+                margin-top: 5px;
+            }
+        }
+    }
+}

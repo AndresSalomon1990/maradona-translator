@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+/* Global style */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_global\.scss}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* Header style */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_header\.scss}line{font-family:\000035}}
+header nav a img {
+  width: 50px;
+  height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_header\.scss}line{font-family:\0000312}}
+header h1 {
+  font-family: 'Rock Salt', cursive;
+  font-weight: 600; }
+
+/* Main style */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_main\.scss}line{font-family:\000032}}
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_main\.scss}line{font-family:\000038}}
+  main section .col {
+    min-width: 200px;
+    width: 400px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_main\.scss}line{font-family:\0000312}}
+    main section .col textarea {
+      resize: none;
+      height: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_main\.scss}line{font-family:\0000317}}
+    main section .col button {
+      margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_main\.scss}line{font-family:\0000321}}
+    main section .col p {
+      margin-top: 5px; }
+
+/* Footer style */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_footer\.scss}line{font-family:\000031}}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_footer\.scss}line{font-family:\000036}}
+  footer p {
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_footer\.scss}line{font-family:\0000310}}
+  footer a {
+    padding-left: 10px; }
+
+/* Media queries */
+@media only screen and (max-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_media-queries\.scss}line{font-family:\000033}}
+  main section {
+    flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_media-queries\.scss}line{font-family:\000036}}
+    main section .col {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_media-queries\.scss}line{font-family:\000039}}
+      main section .col ~ div:nth-of-type(2) {
+        margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/maradona-translator\/style\/partials\/_media-queries\.scss}line{font-family:\0000316}}
+  footer {
+    position: relative; } }
+
+/*# sourceMappingURL=style.css.map */
