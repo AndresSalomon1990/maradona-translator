@@ -5,7 +5,7 @@ The idea is to generate a translator, but with the irony that the person who tra
 **It's just for fun. I hope it makes you laugh.**
 
 Technologies used:
-*HTML5
-*CSS3 with Sass
-*W3.CSS
-*JavaScript
+1. HTML5
+2. CSS3 with Sass
+3. W3.CSS
+4. JavaScript
